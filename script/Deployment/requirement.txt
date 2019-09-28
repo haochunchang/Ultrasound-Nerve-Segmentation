@@ -1,0 +1,4 @@
+numpy
+scikit-image
+flask
+flask_cors

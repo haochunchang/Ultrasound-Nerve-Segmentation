@@ -1,0 +1,22 @@
+{
+    "id": "SimpleCNN_v1",
+    "epoch": 500,
+    
+    "batch_size": 16,
+    "seed": 9487,
+    "val_size": 0.1,
+    "image_size": 96,   
+    "patience": 50,
+    
+    "featurewise_center": 1,
+    "featurewise_std_normalization": 1,
+    "rotation_range": 30,
+    "width_shift_range": 0.2,
+    "height_shift_range": 0.2,
+    "horizontal_flip": 1,
+    "zoom": 0.5,
+    "shear": 0.5,
+    
+    "Val acc": 0.74,
+    "Public_LB_score": 0.433
+}

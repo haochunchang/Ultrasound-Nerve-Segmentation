@@ -1,0 +1,21 @@
+{
+    "id": "Unet_Simplev2",
+    "epoch": 10000,
+    
+    "batch_size": 32,
+    "image_size": 128,
+    "seed": 9487,
+    "val_size": 0.2,
+    "patience": 2000,
+    
+    "rotation_range": 30,
+    "width_shift_range": 0.2,
+    "height_shift_range": 0.2,
+    "horizontal_flip": 1,
+    "zoom": 0.25,
+    "shear": 0.25,
+    
+    "Val dicecoeff": 0.64,
+    "Public_LB_score": 0.63960,
+    "Private_LB_score": 0.66858
+}

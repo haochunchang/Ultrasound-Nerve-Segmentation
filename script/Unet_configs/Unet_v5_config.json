@@ -1,0 +1,22 @@
+{
+    "id": "Unet_v5",
+    "epoch": 500,
+    
+    "batch_size": 32,
+    "image_size": 96,
+    "seed": 9487,
+    "val_size": 0.2,
+    
+    "patience": 50,
+    
+    "rotation_range": 60,
+    "width_shift_range": 0.3,
+    "height_shift_range": 0.3,
+    "horizontal_flip": 1,
+    "zoom": 0.3,
+    "shear": 0.3,
+    
+    "Val dicecoeff": 0.59,
+    "Public_LB_score": 0.56,
+    "Private_LB_score": 0.53
+}
